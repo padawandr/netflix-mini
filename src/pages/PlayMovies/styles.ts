@@ -3,22 +3,22 @@ import { colors } from '../../styles/pallete'
 
 export const Wrapper = styled.main`
   display: flex;
-  height: 100vh;
   flex-direction: column;
+  height: 100vh;
   justify-content: space-between;
   width: 100%;
 
   .playing {
-    flex: 1;
-    display: flex;
     align-items: center;
+    display: flex;
+    flex: 1;
     justify-content: center;
   }
 
   .action {
     color: ${colors.dim};
-    width: 92%;
     margin: 2rem auto 1rem;
+    width: 92%;
 
     .timeframe {
       display: flex;
@@ -26,12 +26,12 @@ export const Wrapper = styled.main`
     }
 
     .controls {
-      margin-top: 1rem;
-      font-size: 3rem;
-      display: flex;
-      justify-content: space-between;
       align-items: center;
+      display: flex;
+      font-size: 3rem;
       gap: 1rem;
+      justify-content: space-between;
+      margin-top: 1rem;
 
       .control {
         transition: color 200ms ease;
@@ -42,8 +42,8 @@ export const Wrapper = styled.main`
       }
 
       .title {
-        font-size: 1.2rem;
         flex: 1;
+        font-size: 1.2rem;
         text-align: center;
       }
     }

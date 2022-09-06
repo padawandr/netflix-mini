@@ -1,17 +1,17 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
+  cursor: pointer;
   position: relative;
   width: 100%;
-  cursor: pointer;
 
   .container {
-    position: absolute;
     bottom: 1rem;
-    left: 0;
-    width: 100%;
     display: flex;
     justify-content: center;
+    left: 0;
+    position: absolute;
+    width: 100%;
     z-index: 10;
 
     .about {
@@ -23,14 +23,14 @@ export const Wrapper = styled.div`
       }
 
       .overview {
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
         display: -webkit-box;
-        width: 75vw;
         font-size: 1rem;
         line-height: 1.5;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+        width: 75vw;
       }
     }
   }
