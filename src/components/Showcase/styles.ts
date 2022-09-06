@@ -74,4 +74,26 @@ export const Wrapper = styled.div`
       }
     }
   }
+  @media screen and (min-width: 768px) {
+    .list {
+      margin-top: 0.6rem;
+    }
+
+    .movies {
+      .movie {
+        min-width: 22rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .list {
+      margin-top: 0.8rem;
+    }
+    .movies {
+      .movie {
+        min-width: 26rem;
+      }
+    }
+  }
 `

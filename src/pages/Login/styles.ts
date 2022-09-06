@@ -8,6 +8,7 @@ export const Wrapper = styled.main`
   height: 100vh;
   flex-direction: column;
   gap: 2rem;
+  width: max(60rem);
 
   .title {
     align-self: flex-start;

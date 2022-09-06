@@ -4,10 +4,11 @@ import { colors } from '../../styles/pallete'
 export const Wrapper = styled.main`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   padding: 6rem 0;
   justify-content: center;
   gap: 2rem;
+  max-width: 80rem;
 
   .heading {
     font-size: 3.2rem;
