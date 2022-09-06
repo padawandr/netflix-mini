@@ -12,6 +12,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/triple-slash-reference": "off",
     "react/react-in-jsx-scope": "off"
   }
